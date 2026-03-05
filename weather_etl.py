@@ -128,7 +128,7 @@ def load(con, target_table, records):
 
 with DAG(
     dag_id="weather_etl",
-    start_date=datetime(2026, 2, 27),
+    start_date=datetime(2026, 3, 4),
     catchup=False,
     tags=["ETL"],
     default_args=default_args,
